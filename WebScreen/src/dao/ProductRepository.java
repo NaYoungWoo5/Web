@@ -19,7 +19,6 @@ public class ProductRepository {
 		move.setManufacturer("¿Œ∆Ú");
 		move.setUnitsInStock(1);
 		move.setCondition("new");
-		move.setFilename("P0529.jpg");
 	}
 
 	public ArrayList<Product> getAllProducts() {

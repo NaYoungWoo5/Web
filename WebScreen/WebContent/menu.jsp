@@ -8,7 +8,8 @@
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="./products.jsp">Home</a> <a
-				class="navbar-brand" href="./login.jsp">login</a>
+				class="navbar-brand" href="./login.jsp">login</a> <a
+				class="navbar-brand" href="./addProduct.jsp">addProduct</a>
 		</div>
 	</div>
 </nav>
