@@ -6,8 +6,8 @@
 <body>
 	<%
 		request.setCharacterEncoding("utf-8");
-		String userid = request.getParameter("id");
-		String password = request.getParameter("psw");
+			String userid = request.getParameter("id");
+			String password = request.getParameter("psw");
 
 		if (userid.equals("admin") && password.equals("1234")) {
 			response.sendRedirect("products.jsp");
