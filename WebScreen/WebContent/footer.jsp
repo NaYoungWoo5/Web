@@ -2,6 +2,6 @@
 <hr>
 <footer class="container">
 	<div>
-		<h6>NayoungWoo</h6>
+		<h6>만든이 : 나영우</h6>
 	</div>
 </footer>

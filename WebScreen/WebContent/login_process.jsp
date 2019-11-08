@@ -7,10 +7,10 @@
 	<%
 		request.setCharacterEncoding("utf-8");
 		String userid = request.getParameter("id");
-		String password = request.getParameter("passwd");
+		String password = request.getParameter("psw");
 
 		if (userid.equals("admin") && password.equals("1234")) {
-			response.sendRedirect("home.jsp");
+			response.sendRedirect("products.jsp");
 		} else {
 			response.sendRedirect("login_failure.jsp");
 		}
