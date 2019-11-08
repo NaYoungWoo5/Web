@@ -19,6 +19,8 @@ public class ProductRepository {
 		move.setManufacturer("¿Œ∆Ú");
 		move.setUnitsInStock(1);
 		move.setCondition("new");
+
+		listOfProducts.add(move);
 	}
 
 	public ArrayList<Product> getAllProducts() {
