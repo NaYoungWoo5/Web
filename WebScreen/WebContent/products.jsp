@@ -21,7 +21,6 @@
 			</h1>
 		</div>
 	</div>
-	<main role="main">
 	<div class="container">
 		<div class="text-center">
 			<h3>
@@ -30,7 +29,6 @@
 		</div>
 		<hr>
 	</div>
-	</main>
 	<%
 		ProductRepository dao = ProductRepository.getInstance();
 		ArrayList<Product> listOfProducts = dao.getAllProducts();

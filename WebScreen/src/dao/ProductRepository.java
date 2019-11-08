@@ -20,7 +20,15 @@ public class ProductRepository {
 		move.setUnitsInStock(1);
 		move.setCondition("new");
 
+		Product phone = new Product("P020529", "아이폰8", 650000);
+		phone.setDescription("아이폰");
+		phone.setCategory("핸드폰");
+		phone.setManufacturer("애플");
+		phone.setUnitsInStock(1);
+		phone.setCondition("new");
+
 		listOfProducts.add(move);
+		listOfProducts.add(phone);
 	}
 
 	public ArrayList<Product> getAllProducts() {
